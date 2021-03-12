@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: deployment.yaml
-    destination: /var/www/yaml/
+    destination: /root/destination/directory
 hooks:
   BeforeInstall:
     - location: start_server.sh
