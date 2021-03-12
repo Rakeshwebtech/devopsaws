@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: start_server
+    - location: start_server.sh
       timeout: 300
       runas: root
